@@ -20,7 +20,7 @@ getdata();
      globalExecutionContext: {
        LexicalEnvironment: {
          EnvironmentRecord:  {
-            type: "declarative",
+            type: "object",
              firstName: undefined,
              lastName: undefined,
            
@@ -31,7 +31,7 @@ getdata();
           },
           VariableEnvironment: {
             EnvironmentRecord:  {
-               type: "declarative",
+               type: "object",
                 fullName: undefined,
                 
               }
@@ -48,7 +48,7 @@ getdata();
               globalExecutionContext: {
                 LexicalEnvironment: {
                   EnvironmentRecord:  {
-                     type: "declarative",
+                     type: "object",
                       firstName: 'Ajith',
                       lastName: 'pandiyan',
                     
@@ -59,7 +59,7 @@ getdata();
                    },
                    VariableEnvironment: {
                      EnvironmentRecord:  {
-                        type: "declarative",
+                        type: "object",
                          fullName: 'firstname+lastName' ,
                          
                        }
